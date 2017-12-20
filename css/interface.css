@@ -1,0 +1,86 @@
+
+#interface{
+    
+    background-color: antiquewhite;
+    font-family:cursive;
+}
+
+#wrc{
+    
+    
+}
+
+#pulchowk{
+}
+
+#info{
+    position:relative;
+}
+
+#interface button{
+    background-color:azure;
+    font-size: 25px;
+    display:block;
+    float:left;
+    height:100px;
+    width:40%;
+    text-align: center;
+    line-height: 100px;
+    margin:20px,0px,10px,0px;
+    border:3px outset grey;
+    border-radius: 20px;
+}
+.eng{
+    color:black;
+    background-color:aquamarine;
+    list-style-type: none;
+    padding:8px;
+    font-size: 16px;
+    width:400px;
+    border:2px solid green;
+    border-radius:8px;
+    margin: 15px;
+}
+
+li li{
+    width:90%;
+    margin=5px;
+    
+}
+
+.bar{
+    background-color: #f2f2f1;
+    width:100%;
+    height:20px;
+    border-radius: 5px;
+}
+
+.barin{
+    background-color:hotpink;
+    width:0%;
+    height:20px;
+    border-radius:5px;
+    position: relative;
+}
+
+.barin:after{
+    position: absolute;
+    right:2.5%;
+    content:attr(data-percent);
+    line-height: 20px;
+    color:white;
+    font-size: 12px;
+}
+.bar-90{
+    width:90%;
+}
+
+.bar-20 {
+	width:20%;
+}
+
+
+
+
+
+
